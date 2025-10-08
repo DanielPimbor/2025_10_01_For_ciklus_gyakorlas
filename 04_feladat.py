@@ -7,4 +7,4 @@ faktorialis = 1
 for i in range(1, szam + 1):
         faktorialis *= i
 
-print(f"A(z) {szam}! faktoriálisa: {faktorialis}")
+print(f"A(z) {szam} faktoriálisa: {faktorialis}")

@@ -4,7 +4,7 @@ szam = int(input('Adj meg egy egész számot. '))
 
 eredmény = 0
 
-for i in range (0, szam):
+for i in range (0, szam + 1):
     eredmény += i
 
-print(f'Az 1-től a megadott számig terjedő egész számok összege HA az adott számot nem kell hozzáadni (pl. az adott szám 3 -> 0 + 1 + 2 = 3): {eredmény}')
+print(f'Az 1-től a megadott számig terjedő egész számok összege: {eredmény}')
