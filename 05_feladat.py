@@ -2,5 +2,5 @@
 
 szam = int(input('Adj meg egy számot, és megadom a szorzótábláját. '))
 
-for i in range(0, 11):
+for i in range(1, 11):
     print(f'{szam} X {i} = {szam * i}')
